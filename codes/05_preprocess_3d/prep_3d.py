@@ -5,7 +5,7 @@ import glob
 import os
 
 from prep_funcs import window_intensities, rescale, ROI_from_mask
-from prep_funcs import resize_image, write_image
+from prep_funcs import resample_image, resize_image, write_image
 
 
 base_path = r"D:\DeepLearning_IACT\medical_images\3Dircadb_20"
@@ -38,7 +38,7 @@ for img_path, msk_path in tqdm(zip(images_paths, masks_paths)):
     msk_3 = sitk.GetImageFromArray(sitk.GetArrayFromImage(msk_3))
 
     # # Visualization
-    # img_arr = sitk.GetArrayFromImage(img)
+    # img_arr = sitk.GetArrayFromImage(img_2)
     # img_1_arr = sitk.GetArrayFromImage(img_3)
 
     # fig, axes = plt.subplots(1,2)

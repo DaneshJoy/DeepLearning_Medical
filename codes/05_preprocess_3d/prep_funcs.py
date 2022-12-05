@@ -30,7 +30,6 @@ def ROI_from_mask(data_image, data_liver):
 
     return _image, _liver
 
-
 def resize_image(img, newSize):
     inSpacing = np.round(img.GetSpacing(), 3)
     outSpacing = np.round(inSpacing * img.GetSize() / newSize, 3)
