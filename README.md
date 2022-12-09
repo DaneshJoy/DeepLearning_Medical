@@ -10,8 +10,9 @@ Deep Learning for Medical Image Analysis
 - **Tools and Apps**
 
   - Netron for model structure visualization
-    - https://github.com/lutzroeder/netron
-
+    
+  - https://github.com/lutzroeder/netron
+    
   - ITK-Snap for Medical Image Visualization
 
     - http://www.itksnap.org/
@@ -40,6 +41,8 @@ Deep Learning for Medical Image Analysis
   
 - **Transformers**
 
+  - Transformers Library and Documents
+    - https://huggingface.co/docs/transformers
   - Transformers Study Guide
     - https://github.com/dair-ai/Transformers-Recipe
   - Demos made with the [Transformers library](https://github.com/huggingface/transformers) by 🤗 HuggingFace
